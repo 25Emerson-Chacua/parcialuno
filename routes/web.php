@@ -1,6 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\administracion;
+use App\Http\Controllers\administracion\presentacion;
+use App\Http\Controllers\inventarioperro\productos;
+use App\Http\Controllers\inventariogato\producto;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +17,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('principal');
-});
+Route::get('/', [Administracion::class, 'index']) ;
+Route::get('empresa/historia', [presentacion::class, 'historia']);
+Route::get('empresa/mision-vision', [presentacion::class, 'mision']);
+
+Route::get('productosperro/alimentos', [producto::class, 'alimentos']);
+
+Route::get('productosgato/alimentos', [producto::class, 'alimentos']);
+
+
