@@ -30,7 +30,7 @@
         </a>
         <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
           <a class="dropdown-item" href="{{url('/productosperro/alimentos')}}">Alimentos</a>
-          <a class="dropdown-item" href="{{url('/tienda-perro/accesorios')}}">Accesorios</a>
+         
          
         </div>
       </li>
@@ -39,8 +39,8 @@
           aria-haspopup="true" aria-expanded="false">Tienda del gato
         </a>
         <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-          <a class="dropdown-item" href="{{url('/productosgato/alimentos')}}">Alimento</a>
-          <a class="dropdown-item" href="{{url('/servicios/eventos/o')}}">Eventos</a>
+          <a class="dropdown-item" href="{{url('/productosgato/alimento')}}">Alimento</a>
+        
          
         </div>
       </li>

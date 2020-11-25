@@ -21,10 +21,8 @@ Route::get('/', [Administracion::class, 'index']) ;
 Route::get('empresa/historia', [presentacion::class, 'historia']);
 Route::get('empresa/mision-vision', [presentacion::class, 'mision']);
 
-Route::get('productosperro/alimentos', [producto::class, 'alimentos']);
-
-Route::get('productosgato/alimentos', [producto::class, 'alimentos']);
-
+Route::get('productosperro/alimentos', [productos::class, 'alimentos']);
+Route::get('productosgato/alimento', [producto::class, 'alimento']);
 Route::get('contactanos', function () {
     return view('contactos');
 });

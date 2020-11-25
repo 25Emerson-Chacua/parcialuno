@@ -98,4 +98,88 @@
 
 </div>
 
+<h1> Alimentos humedos </h1>
+
+<div  class="container">
+<!-- Card deck -->
+<div class="card-deck">
+  <!-- Card -->
+    <div class="card mb-4" >
+     <!--Card image-->
+        <div class="view view-cascade" style="outline: none; width: 230px;">
+            <img src="{{ url('/imagenes/11.webp') }}" class="card-img-top"
+                alt="">
+                <a>
+                <div class="mask rgba-white-slight"></div>
+                </a>
+        </div>
+            <div class="card-body card-body-cascade">
+                <h5 class="pink-text"><i class="fas fa-utensils"></i> Alimento Para gato </h5>
+                <!--Title-->
+                <h4 class="card-title"> 
+                    @foreach ($ali5 as $p)
+                    <BR> {{ $p }} 
+                    @endforeach
+                </h4>
+                <a class="btn btn-unique">Button</a>
+        </div>
+    </div>
+    <div class="card mb-4">
+   <div class="view view-cascade" style="outline: none; width: 230px;">
+        <img src="{{ url('/imagenes/12.webp') }}" class="card-img-top"
+          alt="">
+        <a>
+          <div class="mask rgba-white-slight"></div>
+        </a>
+      </div>
+      <!--/.Card image-->
+
+      <!--Card content-->
+      <div class="card-body card-body-cascade">
+        <h5 class="pink-text"><i class="fas fa-utensils"></i> Alimento Para gato</h5>
+        <!--Title-->
+        <h4 class="card-title">
+        @foreach ($ali6 as $p)
+   <BR> {{ $p }} 
+@endforeach</h4>
+
+        <a class="btn btn-unique">Button</a>
+      </div>
+      <!--/.Card content-->
+
+  </div>
+
+  <div class="card mb-4" >
+
+<!--Card image-->
+<div class="view view-cascade" style="outline: none; width: 230px;">
+     <img src="{{ url('/imagenes/13.webp') }}" class="card-img-top"
+       alt="">
+     <a>
+       <div class="mask rgba-white-slight"></div>
+     </a>
+   </div>
+   <!--/.Card image-->
+
+   <!--Card content-->
+   <div class="card-body card-body-cascade">
+     <h5 class="pink-text"><i class="fas fa-utensils"></i> Alimento Para gato</h5>
+     <!--Title-->
+     <h4 class="card-title">@foreach ($ali7 as $p)
+   <BR> {{ $p }} 
+@endforeach</h4>
+     <a class="btn btn-unique">Button</a>
+   </div>
+   <!--/.Card content-->
+
+</div>
+
+
+
+
+</div>
+</div>
+
+</div>
+
 @stop

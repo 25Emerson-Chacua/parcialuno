@@ -27,6 +27,23 @@ class productos extends Controller
             'Presio=22.200'
         ];
         
+        $alimento5 = [
+            'Codigo=11',
+            'Presio=33.200'
+        ];
+
+        $alimento6 = [
+            'Codigo=112',
+            'Presio=30.200'
+        ];
+        $alimento7 = [
+            'Codigo=13',
+            'Presio=33.200'
+        ];
+        $alimento8 = [
+            'Codigo=14',
+            'Presio=28.200'
+        ];
         $mensaje = "Bienvenidos a las ofertas de papeleria";
 
         $carton = [
@@ -46,6 +63,10 @@ class productos extends Controller
         ->with('ali2', $alimento2)
         ->with('ali3', $alimento3)
         ->with('ali4', $alimento4)
+        ->with('ali5', $alimento5)
+        ->with('ali6', $alimento6)
+        ->with('ali7', $alimento7)
+        ->with('ali8', $alimento8)
         ->with('msg',$mensaje)
         ->with('carton', $carton)
         ->with('color', $colores);;
