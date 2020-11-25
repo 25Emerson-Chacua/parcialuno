@@ -25,4 +25,8 @@ Route::get('productosperro/alimentos', [producto::class, 'alimentos']);
 
 Route::get('productosgato/alimentos', [producto::class, 'alimentos']);
 
+Route::get('contactanos', function () {
+    return view('contactos');
+});
+
 

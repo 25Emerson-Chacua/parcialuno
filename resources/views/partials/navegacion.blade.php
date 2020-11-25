@@ -1,5 +1,5 @@
 <!--Navbar -->
-<nav class="mb-1 navbar navbar-expand-lg navbar-dark special-color-dark">
+<nav class="mb-1 navbar navbar-expand-lg navbar-dark light-blue ">
   <a class="navbar-brand" href="{{url('/')}}">
   
   
@@ -20,9 +20,8 @@
           Tienda
         </a>
         <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-          <a class="dropdown-item" href="{{url('/empresa/historia')}}">Historia</a>
+          <a class="dropdown-item" href="{{url('/empresa/historia')}}">Quienes somos</a>
           <a class="dropdown-item" href="{{url('/empresa/mision-vision')}}">Misión y Visión</a>
-          <a class="dropdown-item" href="{{url('/empresa/ubicacion')}}">Ubicación</a>
         </div>
       </li>
       <li class="nav-item dropdown">

@@ -11,7 +11,7 @@
 
     <!--Card image-->
     <div class="view overlay">
-      <img class="card-img-top" src="{{ url('/imagenes/5.jpg') }}"
+      <img class="card-img-top" src="{{ url('/imagenes/mision.jpg') }}"
         alt="Card image cap">
       <a href="#!">
         <div class="mask rgba-white-slight"></div>
@@ -24,7 +24,7 @@
       <!--Title-->
       <h4 class="card-title">Misión</h4>
       <!--Text-->
-      <p class="card-text">Somos una empresa privada, líder en la prestación de servicios hoteleros, orientada principalmente a los sectores comercial y empresarial, que ofrece una atención personalizada y amable con calidad, desarrollando productos y servicios que garantizan la satisfacción y las expectativas del cliente. Contamos con un talento humano comprometido, en permanente desarrollo y mejoramiento continuo, que nos permite ampliar y mantener el mercado brindando total seguridad a empleados, clientes, proveedores, socios y comunidad en general.</p>
+      <p class="card-text">La Misión de Tienda de Mascotas consiste en brindar una solución integral a la atención de la mascota, a partir de una inmejorable oferta de producto, precio, calidad y servicio.</p>
       <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
       
     </div>
@@ -37,7 +37,7 @@
 
     <!--Card image-->
     <div class="view overlay">
-      <img class="card-img-top" src="{{ url('/imagenes/6.jpg') }}" height="320"
+      <img class="card-img-top" src="{{ url('/imagenes/vision.jpg') }}" 
         alt="Card image cap">
       <a href="#!">
         <div class="mask rgba-white-slight"></div>
@@ -50,7 +50,7 @@
       <!--Title-->
       <h4 class="card-title">Visión</h4>
       <!--Text-->
-      <p class="card-text">Ser en el año 2021 el hotel más reconocido en Pasto, tanto por su infraestructura como sus servicios. Brindando atención de excelente calidad, con unas instalaciones modernas dirigidas a clientes del sector comercial y empresarial que visitan la ciudad, contando con una alta ocupación a nivel nacional e internacional</p>
+      <p class="card-text">La Visión de Tienda de Mascotas es continuar siendo la empresa Nº 1 en la comercialización de productos para mascotas en la Región Patagónica, operando con sucursales en las principales ciudades</p>
       <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
      
 

@@ -39,7 +39,7 @@
             <script type="text/javascript" src="{{ url('/assets/bootstrap/js/mdb.min.js') }}"></script> 
     </body>
 
-    <footer class="page-footer font-small black special-color-dark">
+    <footer class="page-footer font-small light-blue">
     <div class="container-fluid text-center text-md-left">
         <div class="row">
             <div class="col-md-6 mt-md-0 mt-3">

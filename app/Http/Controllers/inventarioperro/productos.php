@@ -40,16 +40,7 @@ class productos extends Controller
             'Colores Norma',
             '10.000'
         ];
-        /*
-        Opcion 1 de envio de datos a vista
-        return view('inventario.papeleria', 
-        [
-            'papel' => $papeleria,
-            'msg' => $mensaje,
-            'carton' => $carton
-        ]);
-        */
-        // Opcion 2 de envio de datos a vista
+
         return view('productosperro.alimentos')
         ->with('ali1', $alimento1)
         ->with('ali2', $alimento2)
